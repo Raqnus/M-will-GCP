@@ -1,5 +1,5 @@
 import styles from "/styles/Home.module.css";
-import TOP1 from "/public/images/TOP1.png";
+import TOP1 from "/public/images/Top01.png";
 import TOP2 from "/public/images/Top02.png";
 import TOP3 from "/public/images/Top03.png";
 import Image from 'next/image';
