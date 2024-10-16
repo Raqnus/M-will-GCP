@@ -6,7 +6,7 @@ export default function Topv2page() {
       <div className="flex justify-center mx-auto bg-white container mt-8">
         <Image
         src={Topv2}
-        alt=""
+        alt="top2"
         />
     </div>
     );
