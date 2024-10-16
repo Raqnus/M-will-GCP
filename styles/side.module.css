@@ -1,0 +1,89 @@
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* サイドバーの幅に応じて調整 */
+    width: 240px; /* サイドバーの幅 */
+    height: 100%;
+    background-color: white;
+    transition: right 0.6s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    padding-left: 30px;
+    padding-top: 20px;
+    overflow-x: hidden
+  }
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.button {
+    text-align: left;
+}
+
+.toggleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: rem; /* 必要に応じて調整 */
+    
+  }
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar menu {
+    font-size: 30px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 23px;
+}
+
+.sidebar h1 {
+    gap: 20px;
+    font-size: 30px;
+}
+
+.sidebar a:hover {
+    color: pink;
+    transition-duration: 200ms;
+}
+
+.sidebarX :hover {
+    color: aqua;
+    transition-duration: 200ms;
+}
+
+.sidebarI :hover {
+    color: deeppink;
+    transition-duration: 200ms;
+}
+
+.sidebarL :hover {
+    color: lime;
+    transition-duration: 200ms;
+}
+
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  .sidebar.open {
+    right: 0;
+  }
+
+  .closeButton {
+    position: absolute;
+    
+    top: 20px; /* 必要に応じて調整 */
+    right: 20px; /* 必要に応じて調整 */
+}
+
