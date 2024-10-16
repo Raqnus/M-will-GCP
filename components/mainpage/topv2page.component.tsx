@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Topv2 from "/public/images/topv2.png"
+import Topv2 from "/public/images/Topv2.png"
 
 export default function Topv2page() {
     return (

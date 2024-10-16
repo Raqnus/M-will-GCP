@@ -1,14 +1,14 @@
 import styles from "/styles/Home.module.css";
-import TOP1 from "/public/images/Top01.png";
-import TOP2 from "/public/images/Top02.png";
-import TOP3 from "/public/images/TOP03.png";
+import Top1 from "/public/images/Top01.png";
+import Top2 from "/public/images/Top02.png";
+import Top3 from "/public/images/Top03.png";
 import Image from 'next/image';
 
 
 const images = [
-  { src: TOP1, alt: "4" },
-  { src: TOP2, alt: "2" },
-  { src: TOP3, alt: "3" },
+  { src: Top1, alt: "4" },
+  { src: Top2, alt: "2" },
+  { src: Top3, alt: "3" },
 ];
 
 export default function TopPNG() {

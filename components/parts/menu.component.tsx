@@ -5,12 +5,7 @@ import Mail from '@mui/icons-material/EmailRounded';
 import Home from '@mui/icons-material/HomeOutlined';
 import Company from '@mui/icons-material/Apartment';
 import React, { useState } from 'react';
-import CottageIcon from '@mui/icons-material/Cottage';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import styles from '/styles/side.module.css'; // パスと拡張子を確認
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
