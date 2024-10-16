@@ -1,7 +1,7 @@
 import styles from "/styles/Home.module.css";
-import TOP1 from "/public/images/TOP01.png";
-import TOP2 from "/public/images/TOP02.png";
-import TOP3 from "/public/images/TOP03.png";
+import TOP1 from "/public/images/top01.png";
+import TOP2 from "/public/images/top02.png";
+import TOP3 from "/public/images/top03.png";
 import Image from 'next/image';
 
 
